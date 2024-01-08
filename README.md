@@ -12,7 +12,7 @@ https://mauryiv.github.io/module-03-project/
 Would be good for if you want a little break and playing a simple game. Also to review any code for how you could use it in your own code.
 
 ##Authors and acknowledgment
-Had help from my TA as well as a couple students to guide me to the right way of getting this code to work properly.
+Had help from my TA as well as a couple students to guide me to the right way of getting this code to work properly. Found some help in simplifying my random string generator code from javatpoint.com as well.
 
 ##License
 Refer to LICENSE please.

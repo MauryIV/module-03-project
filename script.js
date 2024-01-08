@@ -16,23 +16,8 @@ if ((userChoice.toLowerCase() !== "rock")
 }
 else {
 
-function random(min, max) {
-  const num = Math.floor(Math.random() * (max - min + 1)) + min;
-  return num;
-}
-
-var randNumber = random(1, 3); 
-var compChoice = ("")
-
-if (randNumber === 1) {
-    compChoice = "Rock";
-}
-else if (randNumber === 2) {
-  compChoice = "Paper";
-}
-else if (randNumber === 3) {
-  compChoice = "Scissors";
-}
+const options = ["Rock", "Paper", "Scissors"];  
+const compChoice = options[Math.floor(Math.random() * options.length)];  
 
 if (userChoice.toLowerCase() === "rock" && compChoice === "Scissors") {
   var result = true
